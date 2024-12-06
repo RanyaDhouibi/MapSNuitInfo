@@ -67,6 +67,7 @@ Cela génère les configurations pour la séquence de degrés [3, 3, 2, 2, 1, 1]
 
 
 
+
 Cela génère les configurations pour la séquence de degrés [3, 3, 2, 2, 1, 1], les sauvegarde dans configurations.json et affiche les graphes générés.
 Sortie
 
@@ -84,3 +85,6 @@ Configuration 1:
 
 Nombre total de configurations uniques : 2
 Les configurations ont été sauvegardées dans 'configurations.json'.
+
+```Note : Pour Exucter les Test :
+    python -m unittest test_network_configuration_generator.py
