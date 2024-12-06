@@ -42,26 +42,30 @@ Le script accepte les arguments suivants :
 Exemples d'utilisation
 
     Générer des configurations pour une séquence de degrés et les afficher dans la console :
+    python generate_network_configurations.py 3 3 2 2 1 1
 
-python generate_network_configurations.py 3 3 2 2 1 1
+
 
 Cela générera les configurations réseau pour la séquence de degrés [3, 3, 2, 2, 1, 1] et les affichera dans la console.
 
     Générer des configurations et les sauvegarder dans un fichier JSON :
+    python generate_network_configurations.py 3 3 2 2 1 1 --save --json_filename configurations.json
 
-python generate_network_configurations.py 3 3 2 2 1 1 --save --json_filename configurations.json
+
 
 Cela génère les configurations pour la séquence de degrés [3, 3, 2, 2, 1, 1] et les sauvegarde dans le fichier configurations.json.
 
     Générer des configurations et visualiser les graphes :
+    python generate_network_configurations.py 3 3 2 2 1 1 --visualize
 
-python generate_network_configurations.py 3 3 2 2 1 1 --visualize
+
 
 Cela génère les configurations pour la séquence de degrés [3, 3, 2, 2, 1, 1] et affiche les graphes générés à l’aide de matplotlib.
 
     Générer des configurations, les sauvegarder et visualiser les graphes :
+    python generate_network_configurations.py 3 3 2 2 1 1 --save --json_filename configurations.json --visualize
 
-python generate_network_configurations.py 3 3 2 2 1 1 --save --json_filename configurations.json --visualize
+
 
 Cela génère les configurations pour la séquence de degrés [3, 3, 2, 2, 1, 1], les sauvegarde dans configurations.json et affiche les graphes générés.
 Sortie
